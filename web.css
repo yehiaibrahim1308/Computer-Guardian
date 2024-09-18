@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 45px;
+  font-size: 25px;
+  margin: auto;
+  background-color: rgba(31, 30, 30, 0.24);
+  width: auto;
+  z-index: 12;
+  position: auto;
+}
+.navbar a {
+  float: left;
+  display: block;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color of the text  on mouse-over */
+.navbar a:hover {
+  color: #ff523b;
+}
+.navbar img:hover {
+  background-color: #ff523b;
+}
+
+.categories {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  color: rgb(255, 255, 255);
+}
+p {
+  color: rgb(0, 0, 0);
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: aliceblue;
+}
+
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-2 img {
+  max-width: 100%;
+  padding: 50px 0;
+}
+.small-container h4 {
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  transition-duration: 0.4s;
+  transform-origin: 60% 50%;
+  width: 150px;
+  white-space: nowrap;
+
+  text-overflow: inherit;
+}
+.col2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+.btn {
+  display: inline-block;
+  background: #ff523b;
+  color: white;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+/* this is where the image of the backgropund and its atttributes */
+.header {
+  background-image: url(./images/istockphoto-1251629816-170667a.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  z-index: 11;
+}
+.all p {
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  transition-duration: 0.4s;
+  transform-origin: 60% 50%;
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: inherit;
+}
+.header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(66, 60, 60);
+  opacity: 0.7;
+  z-index: -1;
+}
+.header .row {
+  margin-top: 70px;
+}
+.btn:hover {
+  background: #563434;
+}
+.categories {
+  margin: 70px 0;
+}
+.col-3 {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+}
+.col-3 img {
+  width: 100%;
+}
+.col-4 {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 25px;
+}
+.col-4 img {
+  width: 100%;
+}
+.col-5 {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+}
+.col-5 img {
+  width: 100%;
+}
+.col-6 {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+}
+.col-6 img {
+  width: 100%;
+}
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: auto;
+  padding-right: auto;
+}
+.col-69 {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.col-22 {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.col-23 {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.col-24 {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.col-25 {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.col-26 {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.col-27 {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.col-28 {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.rating {
+  color: black;
+}
+.col-69 img {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+}
+.col-22 img {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+}
+.col-23 img {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+}
+.col-24 img {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+}
+.col-25 img {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+}
+.col-26 img {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+}
+.col-27 img {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+}
+.col-28 img {
+  flex-basis: 250px;
+  min-width: 25px;
+  margin-bottom: 30px;
+}

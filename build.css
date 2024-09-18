@@ -1,0 +1,178 @@
+/*this is the background color
+ for the whole page */
+body {
+  background-color: rgb(255, 255, 255);
+}
+/* kol el sowr */
+.image {
+  color: #f44336;
+  position: relative;
+  top: -1500px;
+  left: 500px;
+  right: 100px;
+  border: #f44336;
+}
+
+
+/* the column at the  the first right (el be3eed)*/
+.container {
+  position: relative;
+  top: -10px;
+  right: -978px;
+  display: inline-block;
+}
+/* the second  column  at the right(el oryb )*/
+.container9 {
+  position: relative;
+  top: -10px;
+  right: -980px;
+  display: inline-block;
+}
+/* thios is the bottom row*/
+.container1 {
+  display: inline-block;
+  position: relative;
+  right: -9px;
+  top: 30px;
+}
+/* this is column at the left  el be3eed*/
+.container2 {
+  display: inline-block;
+  position: absolute;
+  top: 280px;
+  left: 45px;
+}
+/* el column at the left el oryb*/
+.container8 {
+  display: inline-block;
+  position: absolute;
+  top: 280px;
+  left: 250px;
+}
+
+/* here is the style of the first row  top (awl row el fee sowr ) */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+input[type="checkbox"][id^="myCheckbox"] {
+  display: none;
+}
+/* this is the block the checkbox where you put the images in wa hakaza*/
+label {
+  border: 10px solid rgb(255, 255, 255);
+  padding: 5px;
+
+  display: block;
+  position: relative;
+  margin: 1px;
+  margin-top: 20px;
+
+  border-collapse: separate;
+  border-spacing: 90px 10px;
+}
+/* bos de ana shyfha fel net bas idk what it will do bas it is important 
+ it has a connection with the correct sign  in the check box */
+label:before {
+  background-color: rgb(44, 203, 243);
+  color: rgb(255, 255, 255);
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  border: 1px solid grey;
+  position: absolute;
+  padding: px;
+  top: -5px;
+  left: -5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 28px;
+  transition-duration: 0.4s;
+  transform: scale(0);
+}
+/* here is the  details about all the pictures it will havew the same size as this one here
+if you want to change the size of each pic alone put it in the class name .img ( da law 3yz)*/
+label img {
+  height: 150px;
+  width: 150px;
+  transition-duration: 0.4s;
+  transform-origin: 50% 50%;
+  padding: 5px;
+}
+
+/* hena da el  details of the font in which you will type the description of the image*/
+label p {
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  transition-duration: 0.4s;
+  transform-origin: 60% 50%;
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: inherit;
+}
+.services-col {
+  position: absolute;
+  top: 800px;
+  left: 450px;
+  right: 450px;
+  width: 300px;
+  background: #f9dfdf;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #e7fce7;
+} /* Green */
+h3 {
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.services-col:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+/* el checked de lama el user yepress  3la el checkbox fa howa zy hover keda 
+bas lama yedoso by7sl change fel check box 3ashan ye3rf eno daso.
+by7sl change fel clor da tb3n b3d ma tedos el checkbox */
+:checked + label {
+  border-color: rgb(255, 4, 0);
+  background-color: rgba(255, 0, 0, 0.24);
+}
+/*hena same as the above bas 
+something new will be added wa howa el correct sign */
+:checked + label:before {
+  content: "✓";
+  background-color: rgb(252, 26, 26);
+  transform: scale(1);
+}
+/* here nafs el 7aga bas for the image wa by7sl 3n taree2 el transform */
+:checked + label img {
+  transform: scale(0.8);
+  padding: 3px;
+  z-index: -1;
+}
+/* change in the text 3n taree2 el transform */
+:checked + label p {
+  transform: scale(0.8);
+}
+
+/*  this is the end of the first upper row */
