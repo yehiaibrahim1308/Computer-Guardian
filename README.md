@@ -1,6 +1,6 @@
 # Computer Guardian  
  
- 
+  
 Computer Guardian is an all-in-one platform designed to simplify the process of building custom computers, offering tech guides, and providing the latest news in the world of technology. Our website not only helps users create their perfect PC but also serves as a hub for the latest advancements in computer hardware and software.
  
 One of the standout features of Computer Guardian is its seamless integration of PHP for dynamic content management, ensuring a smooth and efficient user experience. By utilizing PHP on the backend, the platform handles real-time data updates from our partner stores and manages user interactions without delays.
